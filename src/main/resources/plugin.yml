@@ -1,0 +1,31 @@
+name: Kese
+version: '${project.version}'
+main: me.respect.kese.Kese
+api-version: 1.13
+authors: [ respect ]
+depend: [ Vault ]
+loadbefore: [Towny] # townynin önceden yüklenmemesi için
+description: altın tabanlı yarı fiziksel ekonomi eklentisi
+
+commands:
+  kese:
+    usage: /<command>
+    permission: kese.player
+  altin:
+   usage: /<command>
+   permission: kese.player
+  keseadmin:
+    usage: /<command>
+    permission: kese.admin
+
+permissions:
+  kese.*:
+    children:
+      kese.player: true
+      kese.admin: true
+    default: op
+  kese.player:
+    default: true
+  kese.admin:
+    default: op
+

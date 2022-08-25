@@ -1,0 +1,48 @@
+messages:
+  notConsole: "&e&l[!] &FBu komutu sadece oyuncular kullanabilir."
+  reload: "&a&l[!] &FEklenti yeniden başlatıldı."
+  noPermissions: "&c&l[!] &fBunu yapmaya yetkiniz yetmiyor."
+  notNumber: "&e&l[!] &fMiktar sadece sayıdan oluşabilir."
+  notZero: "&e&l[!] &FMiktar 1'den küçük olamaz."
+  noPlayerFound: "&e&l[!] &FOyunda böyle bir oyuncu bulunamadı."
+  noYourself: "&e&l[!] &fKendine üzerinde işlem yapamazsın."
+  anErrorOccurred: "&c&l[!] &fHata oluştu, işleminizi gerçekleştiremedik."
+  goldAmount: "&a&l[!] &fYeni altın miktarınız; &a%gold%"
+  sentGold: "&c&l[-] &c%gold%"
+  incomingGold: "&a&l[+] &a%gold%"
+  insufficientGold: "&e&l[!] &fKesenizde yeterli altın bulunmuyor."
+  setGoldSuccess: "&a&l[!] &a%player% &fadlı oyuncunun altın miktarı &a%gold% &faltın yapıldı."
+  addGoldSuccess: "&a&l[!] &a%player% &fadlı oyuncunun altın miktarına &a%gold% &faltın eklendi."
+  removeGoldSuccess: "&a&l[!] &a%player% &fadlı oyuncunun altın miktarından &a%gold% &faltın alındı."
+  playerGoldAmount: "&a&l[!] &a%player% &fadlı oyuncunun kesesinde bulundurduğu altın; &a%gold%"
+  addedGoldPouch: "&a&l[!] &a%gold% &faltın keseye eklendi."
+  withdrawGold: "&a&l[!] &fKesenden &a%gold% &faltın aldın."
+  depositGold: "&a&l[!] &fKesene &a%gold% &faltın koydun."
+  maxGold: "&e&l[!] &fKesende bulundurabileceğin altın miktarı; &e%max%"
+  maxWithdraw: "&e&l[!] &fKesenden tek seferde alabileceğin altın miktarı; &e%max%"
+  notGold: "&e&l[!] &fKesende yeterli altın yok."
+  goldDropped: "&e&l[!] &fEnvanterinde yer kalmadığı için altınlar yere düştü!"
+  pouchGold: "&a&l[!] &fKesenizde &a%gold% &faltın bulunuyor."
+  maxGoldAndAdded: "&a&l[!] &fKesende &e%max%'dan &ffazla altın bulunduramazsın. Ekleyebileceğin miktar; &e%gold%"
+
+settings:
+  maxGold: 30000.0
+  maxWithdraw: 576
+
+gui:
+  player:
+    - "&e&l[!] &eKomut kullanımı &7(/kese)"
+    - " "
+    - "&e&l[!] &e/kese &fKesenizdse bulunan altını gösterir."
+    - "&e&l[!] &e/kese koy (miktar) &fKeseye altın koyar."
+    - "&e&l[!] &e/kese al (miktar) &fKeseden altın alır."
+    - "&e&l[!] &e/altin gonder (oyuncu) (miktar) &fHedef oyuncuya altın gönderir."
+  admin:
+    - "&e&l[!] &eKomut kullanımı &7(/keseadmin)"
+    - ""
+    - "&e&l[!] &e/keseadmin set (oyuncu) (miktar) &fHedef oyuncunun altın miktarını değiştirir."
+    - "&e&l[!] &e/keseadmin add (oyuncu) (miktar) &fHedef oyuncunun altın miktarına ekler."
+    - "&e&l[!] &e/keseadmin remove (oyuncu) (miktar) &fHedef oyuncunun altın miktarından çıkarır."
+    - "&e&l[!] &e/keseadmin balance (oyuncu) &fHedef oyuncunun altın miktarını gösterir."
+
+decimal_format: '0.0#'
